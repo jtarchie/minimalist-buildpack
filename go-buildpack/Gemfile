@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+
+# Specify your gem's dependencies in go-buildpack.gemspec
+gemspec
+
+gem 'bdk', path: '../bdk'
+
+ruby '1.9.3'

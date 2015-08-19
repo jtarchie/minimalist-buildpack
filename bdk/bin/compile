@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+buildpack_path=$(dirname $(dirname $0))
+$buildpack_path/bin/buildpack compile $*
